@@ -1,0 +1,43 @@
+[
+    {
+    "id": 1,
+    "title": "A Man Called Otto",
+    "rating" : 7.4,
+    "year": 2022,
+    "summary":"Otto is a grump who's given up on life following the loss of his wife and wants to end it all. When a young family moves in nearby, he meets his match in quick-witted Marisol, leading to a friendship that will turn his world around.",
+    "director": "Marc Forster"
+},
+{
+    "id": 2,
+    "title": " Knocked Up",
+    "rating" : 6.9,
+    "year": 2007,
+    "summary": "For fun-loving party animal Ben Stone, the last thing he ever expected was for his one-night stand to show up on his doorstep eight weeks later to tell him she's pregnant with his child.",
+    "director": "Judd Apatow"
+},
+{
+    "id": 3,
+    "title": "Step Brothers",
+    "rating" : 6.9,
+    "year": 2008,
+    "summary": "Two aimless middle-aged losers still living at home are forced against their will to become roommates when their parents marry.",
+    "director": " Adam McKay"
+},
+{
+    "id": 4,
+    "title": "The Hangover ",
+    "rating" : 7.7,
+    "year": 2009,
+    "summary": "Three buddies wake up from a bachelor party in Las Vegas, with no memory of the previous night and the bachelor missing. They make their way around the city in order to find their friend before his wedding.",
+    "director": "Todd Phillips"
+},
+{
+    "id": 5,
+    "title":"Bob Hearts Abishola",
+    "rating":6.9,
+    "year": 2019,
+    "summary": "An American guy falls in love with his Nigerian nurse.",
+    "director":"Gina Yashere"
+}
+
+]
