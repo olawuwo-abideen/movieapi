@@ -26,7 +26,10 @@ const genre = [
 
 
 
+app.get('/api/genre', (req, res) => {
+  res.send(genre);
 
+});
 
 
 
