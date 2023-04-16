@@ -1,0 +1,43 @@
+[
+    {
+    "id": 1,
+    "title": "Three Kings",
+    "rating" : 7.1,
+    "year":1999,
+    "summary": "In the aftermath of the Persian Gulf War, four soldiers set out to steal gold that was stolen from Kuwait, but they discover people who desperately need their help.",
+    "director": "David O. Russell"
+},
+{
+    "id": 2,
+    "title": "The Monuments Men",
+    "rating" : 6.1,
+    "year": 2014,
+    "summary": "An unlikely World War II platoon is tasked to rescue art masterpieces from German thieves and return them to their owners.",
+    "director": "George Clooney"
+},
+{
+    "id": 3,
+    "title": "War Machine",
+    "rating" : 6.0,
+    "year": 2017,
+    "summary": "An idiosyncratic general confronts opposition from enemies, allies, and bureaucrats while leading a massive rebuilding operation in Afghanistan.",
+    "director": "David Michôd"
+},
+{
+    "id": 4,
+    "title":"Air America",
+    "rating" : 5.8,
+    "year": 1990,
+    "summary": "A young pilot finds himself recruited unwittingly into a covert and corrupt CIA airlift operation in Laos during the Vietnam conflict.",
+    "director": "Roger Spottiswoode"
+},
+{
+    "id": 5,
+    "title": "Tropic Thunder",
+    "rating":7.1,
+    "year": 2008,
+    "summary":"Through a series of freak occurrences, a group of actors shooting a big-budget war movie are forced to become the soldiers they are portraying.",
+    "director": "Ben Stiller"
+}
+
+]
