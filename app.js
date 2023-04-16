@@ -1,12 +1,25 @@
 const express = require("express");
-
-
-
+const  Joi = require('joi');
 const app = express();
 
+app.use(express.json())
+
+app.get('/', (req, res) => {
+  res.send("Welcome to vidly movie api");
+
+});
 
 
-app.use(express.static("public"));
+
+
+
+
+
+
+
+
+
+
 
 
 
