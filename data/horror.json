@@ -1,0 +1,45 @@
+[
+
+    {
+    "id": 1,
+    "title":"The Pope's Exorcist",
+    "rating" : 6.3 ,
+    "year":2023,
+    "summary": "Follow Gabriele Amorth, the Vatican's leading exorcist, as he investigates the possession of a child and uncovers a conspiracy the Vatican has tried to keep secret.",
+    "director": "Julius Avery"
+},
+
+{
+    "id": 2,
+    "title":" The Menu ",
+    "rating" : 7.2,
+    "year": 2022,
+    "summary": "A young couple travels to a remote island to eat at an exclusive restaurant where the chef has prepared a lavish menu, with some shocking surprises.",
+    "director": "Mark Mylod "
+},
+{
+    "id": 3,
+    "title": "Winnie the Pooh: Blood and Honey ",
+    "rating": 3.1,
+    "year": 2023,
+    "summary": "After Christopher Robin abandons them for college, Pooh and Piglet embark on a bloody rampage as they search for a new source of food.",
+    "director" :" Rhys Frake-Waterfield"
+},
+{
+    "id": 4,
+    "title": " The Thing (1982)",
+    "rating" :"6.2",
+    "year":1982,
+    "summary": "A research team in Antarctica is hunted by a shape-shifting alien that assumes the appearance of its victims.",
+    "director": "Matthijs van Heijningen Jr."
+},
+{
+    "id": 5,
+    "title": "American Psycho",
+    "rating" : 7.6,
+    "year": 2000,
+    "summary":"A wealthy New York City investment banking executive, Patrick Bateman, hides his alternate psychopathic ego from his co-workers and friends as he delves deeper into his violent, hedonistic fantasies.",
+    "director": "Mary Harron"
+}
+
+]

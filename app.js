@@ -1,5 +1,4 @@
 const express = require("express");
-const  Joi = require('joi');
 const app = express();
 
 app.use(express.json())
@@ -10,27 +9,13 @@ app.get('/', (req, res) => {
 });
 
 
-const genre = [
-  {type: "comedy", name:'Bob hearts abishola'},
-  {type: "horror", name:'Scream'},
-  {type: "superhero", name:'Thor'},
-];
 
 
 
-
-
-
-
-
-
-
-
-app.get('/api/genre', (req, res) => {
-  res.send(genre);
+app.get('/api/genres', (req, res) => {
+  res.send(genres);
 
 });
-
 
 
 
