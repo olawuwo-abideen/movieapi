@@ -1,0 +1,43 @@
+[
+    {
+    "id": 1,
+    "title":"The Devil's Disciple",
+    "rating" : 7.1 ,
+    "year": 1959,
+    "summary": "The black sheep of a family and the local minister discover their true vocations during the Revolutionary War.",
+    "director": "Alexander Mackendrick"
+},
+{
+    "id": 2,
+    "title":"The Civil War on Drugs",
+    "rating": 7.7,
+    "year": 2011,
+    "summary": "The Civil War on Drugs is a historical drama that the WKUK made to document the journey to legalize marijuana during the War Between the States.",
+    "director": "Zach Cregger"
+},
+{
+    "id": 3,
+    "title": "Kammara Sambhavam",
+    "rating" : 7.3,
+    "year": 2018,
+    "summary":"Kammaran Nambiar is a crooked man whose life story as an unscrupulous Indian peasant is turned into a film where he is glorified as a freedom fighter with much manipulation of history.",
+    "director": "Rathish Ambat"
+},
+{
+    "id": 4,
+    "title": "Pulkownik Kwiatkowski",
+    "rating" : 7.0,
+    "year":1995,
+    "summary": "In 1945, military doctor Andrzej Kwiatkowski pretends to be a communist army colonel in order to save innocent people from Stalinist imprisonment and to get the heart of the girl he's in love with.",
+    "director": "Kazimierz Kutz "
+},
+{
+    "id": 5,
+    "title":"Dr. Akagi",
+    "rating":7.2,
+    "year": 1998,
+    "summary":"At the end of WWII, Japanese doctor Akagi searches for the cure for hepatitis in the prisoner-of-war camp.",
+    "director":"Shôhei Imamura "
+}
+
+]
