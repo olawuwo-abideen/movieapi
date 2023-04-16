@@ -10,6 +10,16 @@ app.get('/', (req, res) => {
 });
 
 
+const genre = [
+  {type: "comedy", name:'Bob hearts abishola'},
+  {type: "horror", name:'Scream'},
+  {type: "superhero", name:'Thor'},
+];
+
+
+
+
+
 
 
 
