@@ -1,0 +1,43 @@
+[
+    {
+    "id": 1,
+    "title":  "Avengers: Endgame",
+    "rating" : 8.4 ,
+    "year": 2019,
+    "summary": "After the devastating events of Avengers: Infinity War (2018), the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to reverse Thanos' actions and restore balance to the universe.",
+    "director":"Joe Russo"
+},
+{
+    "id": 2,
+    "title": "Logan",
+    "rating" : 8.1,
+    "year": 2017,
+    "summary": "In a future where mutants are nearly extinct, an elderly and weary Logan leads a quiet life. But when Laura, a mutant child pursued by scientists, comes to him for help, he must get her to safety.",
+    "director": "James Mangold"
+},
+{
+    "id": 3,
+    "title":" Spider-Man: No Way Home",
+    "rating" : 8.2,
+    "year": 2021,
+    "summary": "With Spider-Man's identity now revealed, Peter asks Doctor Strange for help. When a spell goes wrong, dangerous foes from other worlds start to appear, forcing Peter to discover what it truly means to be Spider-Man.",
+    "director": " Jon Watts"
+},
+{
+    "id": 4,
+    "title": "Black Panther",
+    "rating" :7.3,
+    "year": 2018,
+    "summary": "T'Challa, heir to the hidden but advanced kingdom of Wakanda, must step forward to lead his people into a new future and must confront a challenger from his country's past.",
+    "director": "Ryan Coogler"
+},
+{
+    "id": 5,
+    "title": "X-Men: First Class",
+    "rating": 7.7,
+    "year": 2011,
+    "summary": "In the 1960s, superpowered humans Charles Xavier and Erik Lensherr work together to find others like them, but Erik's vengeful pursuit of an ambitious mutant who ruined his life causes a schism to divide them.",
+    "director":"Matthew Vaughn"
+}
+
+]
