@@ -1,0 +1,43 @@
+[
+    {
+    "id": 1,
+    "title":"Titanic",
+    "rating" : 7.9 ,
+    "year": 1997,
+    "summary": "A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the luxurious, ill-fated R.M.S. Titanic.",
+    "director": "James Cameron"
+},
+{
+    "id": 2,
+    "title": "Earthquake",
+    "rating" : 5.9,
+    "year": 1974,
+    "summary": "Various interconnected people struggle to survive when an earthquake of unimaginable magnitude hits Los Angeles, California.",
+    "director": "Mark Robson"
+},
+{
+    "id": 3,
+    "title": "Aftershock",
+    "rating" :7.5,
+    "year": 2010,
+    "summary":"The epic story of a family separated as a result of the Great Tangshan Earthquake of 1976.",
+    "director": "Xiaogang Feng "
+},
+{
+    "id": 4,
+    "title": "Only the Brave",
+    "rating" : 7.6,
+    "year": 2017,
+    "summary": "Based on the true story of the Granite Mountain Hotshots, a group of elite firefighters who risk everything to protect a town from a historic wildfire.",
+    "director": "Joseph Kosinski"
+},
+{
+    "id": 5,
+    "title":"Alive",
+    "rating": 7.1,
+    "year": 1993,
+    "summary": "After crash-landing in the snowswept Andes, a Uruguayan rugby team has no choice but to turn to desperate measures in order to survive.",
+    "director": "Frank Marshall"
+}
+
+]
