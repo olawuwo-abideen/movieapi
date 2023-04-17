@@ -3,13 +3,13 @@ const app = express();
 
 app.use(express.json())
 
-const action = require("./data/action.json");
-const comedy = require("./data/comedy.json");
-const disaster = require("./data/disaster.json");
-const history = require("./data/history.json");
-const horror = require("./data/horror.json");
-const sci_fi = require("./data/horror.json");
-const war = require("./data/war.json");
+const actions = require("./data/action.json");
+const comedies = require("./data/comedy.json");
+const disasters = require("./data/disaster.json");
+const histories = require("./data/history.json");
+const horrors = require("./data/horror.json");
+const scifis = require("./data/horror.json");
+const wars = require("./data/war.json");
 const developer = require("./data/developer.json")
 
 
@@ -19,34 +19,34 @@ app.get("/", (req, res) => {
 
 // get request
 
-app.get("/api/genre/comedy", (req, res) => {
-  res.send(comedy);
+app.get("/api/genre/comedies", (req, res) => {
+  res.send(comedies);
 });
 
-app.get("/api/genre/action", (req, res) => {
-  res.send(action);
+app.get("/api/genre/actions", (req, res) => {
+  res.send(actions);
 });
-app.get("/api/genre/disaster", (req, res) => {
-  res.send(disaster);
+app.get("/api/genre/disasters", (req, res) => {
+  res.send(disasters);
 });
-app.get("/api/genre/history", (req, res) => {
-  res.send(history);
-});
-
-app.get("/api/genre/horror", (req, res) => {
-  res.send(horror);
+app.get("/api/genre/histories", (req, res) => {
+  res.send(histories);
 });
 
-app.get("/api/genre/scifi", (req, res) => {
-  res.send(sci_fi);
+app.get("/api/genre/horrors", (req, res) => {
+  res.send(horrors);
 });
 
-app.get("/api/genre/war", (req, res) => {
-  res.send(war);
+app.get("/api/genre/scifis", (req, res) => {
+  res.send(scifis);
+});
+
+app.get("/api/genre/wars", (req, res) => {
+  res.send(wars);
 });
 
 
-app.get('/api/genre/action/:id', (req, res) => {
+app.get('/api/genre/actions/:id', (req, res) => {
   const findAction = action.find(c => c.id === parseInt(req.params.id));
   if (!findAction) return res.status(404).send('The movie with the given ID was not found')
   res.send(findAction);
@@ -58,8 +58,33 @@ app.get("/api/developer", (req, res) => {
 
 
 
+// post request
 
+app.post('/api/genre/actions', (req, res) => {  
+  const action = {
+    id: actions.length + 1,
+    title: req.body.title,
+    rating: req.body.rating,
+    year: req.body.year,
+    summary: req.body.summary,
+    director: req.body.director,
+  };
+  actions.push(action);
+  res.send(action);
+  });
 
+  app.post('/api/genre/comedies', (req, res) => {  
+    const comedy = {
+      id: comedies.length + 1,
+      title: req.body.title,
+      rating: req.body.rating,
+      year: req.body.year,
+      summary: req.body.summary,
+      director: req.body.director,
+    };
+    comedies.push(comedy);
+    res.send(comedy);
+    });
 
 
 
