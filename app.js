@@ -9,6 +9,7 @@ const disaster = require("./data/disaster.json");
 const history = require("./data/history.json");
 const horror = require("./data/horror.json");
 const sci_fi = require("./data/horror.json");
+const war = require("./data/war.json");
 const developer = require("./data/developer.json")
 
 
@@ -16,11 +17,34 @@ app.get("/", (req, res) => {
   res.sendFile("index.html", { root: __dirname });
 });
 
-// get endpoint
+// get request
 
 app.get("/api/genre/comedy", (req, res) => {
   res.send(comedy);
 });
+
+app.get("/api/genre/action", (req, res) => {
+  res.send(action);
+});
+app.get("/api/genre/disaster", (req, res) => {
+  res.send(disaster);
+});
+app.get("/api/genre/history", (req, res) => {
+  res.send(history);
+});
+
+app.get("/api/genre/horror", (req, res) => {
+  res.send(horror);
+});
+
+app.get("/api/genre/scifi", (req, res) => {
+  res.send(sci_fi);
+});
+
+app.get("/api/genre/war", (req, res) => {
+  res.send(war);
+});
+
 
 app.get('/api/genre/action/:id', (req, res) => {
   const findAction = action.find(c => c.id === parseInt(req.params.id));
@@ -31,6 +55,7 @@ app.get('/api/genre/action/:id', (req, res) => {
 app.get("/api/developer", (req, res) => {
   res.send(developer);
 });
+
 
 
 
