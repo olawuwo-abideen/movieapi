@@ -1,0 +1,43 @@
+[
+    {
+    "id": 1,
+    "title": "Everything Everywhere All at Once",
+    "rating" : 7.9,
+    "year":2022,
+    "summary": "A middle-aged Chinese immigrant is swept up into an insane adventure in which she alone can save existence by exploring other universes and connecting with the lives she could have led.",
+    "director": "Daniel Kwan"
+},
+{
+    "id": 2,
+    "title": "Game of Thrones",
+    "rating":9.2,
+    "year": 2011,
+    "summary": "Nine noble families fight for control over the lands of Westeros, while an ancient enemy returns after being dormant for millennia.",
+    "director": "Emilia Clarke"
+},
+{
+    "id": 3,
+    "title": "Shazam! Fury of the Gods (2023)",
+    "rating" : 6.2,
+    "year": 2023,
+    "summary": "The film continues the story of teenage Billy Batson who, upon reciting the magic word SHAZAM! is transformed into his adult Super Hero alter ego, Shazam.",
+    "director": "David F. Sandberg"
+},
+{
+    "id": 4,
+    "title": "Avatar: The Way of Water",
+    "rating" : 7.7,
+    "year": 2022,
+    "summary": "Jake Sully lives with his newfound family formed on the extrasolar moon Pandora. Once a familiar threat returns to finish what was previously started, Jake must work with Neytiri and the army of the Na'vi race to protect their home.",
+    "director": "James Cameron"
+},
+{
+    "id": 5,
+    "title": "The Flash",
+    "rating": 7.5,
+    "year": 2014,
+    "summary": "After his hometown is destroyed and his mother is killed, young Eren Jaeger vows to cleanse the earth of the giant humanoid Titans that have brought humanity to the brink of extinction.",
+    "director": "Andy Muschietti"
+}
+
+]
