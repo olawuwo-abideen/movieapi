@@ -49,7 +49,7 @@ app.get("/api/genre/wars", (req, res) => {
 
 
 app.get('/api/genre/actions/:id', (req, res) => {
-  const findAction = action.find(c => c.id === parseInt(req.params.id));
+  const findAction = actions.find(c => c.id === parseInt(req.params.id));
   if (!findAction) return res.status(404).send('The movie with the given ID was not found')
   res.send(findAction);
 });
@@ -65,7 +65,7 @@ app.get('/api/genre/disasters/:id', (req, res) => {
 });
 
 app.get('/api/genre/actions/:id', (req, res) => {
-  const findAction = action.find(c => c.id === parseInt(req.params.id));
+  const findAction = actions.find(c => c.id === parseInt(req.params.id));
   if (!findAction) return res.status(404).send('The movie with the given ID was not found')
   res.send(findAction);
 });
@@ -100,22 +100,11 @@ app.post('/api/genre/actions', (req, res) => {
     });
 
 
-    // put request
-
-
-
-
-
-
-
-
-
-
-
+   
 
 //delete request
 
-app.delete('/api/genre/actions:id', (req, res) => {
+app.delete('/api/genre/actions/:id', (req, res) => {
   const action = actions.find(c => c.id === parseInt(req.params.id));
   if (!action) res.status(404).send('The movie with the given ID was not found')
 
