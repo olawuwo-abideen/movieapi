@@ -54,9 +54,6 @@ app.get('/api/genre/actions/:id', (req, res) => {
   res.send(findAction);
 });
 
-app.get("/api/developer", (req, res) => {
-  res.send(developer);
-});
 
 app.get('/api/genre/disasters/:id', (req, res) => {
   const findDisaster = disasters.find(c => c.id === parseInt(req.params.id));
@@ -64,10 +61,14 @@ app.get('/api/genre/disasters/:id', (req, res) => {
   res.send(findDisaster);
 });
 
-app.get('/api/genre/actions/:id', (req, res) => {
-  const findAction = actions.find(c => c.id === parseInt(req.params.id));
-  if (!findAction) return res.status(404).send('The movie with the given ID was not found')
-  res.send(findAction);
+app.get('/api/genre/wars/:id', (req, res) => {
+  const findWar = wars.find(c => c.id === parseInt(req.params.id));
+  if (!findWar) return res.status(404).send('The movie with the given ID was not found')
+  res.send(findWar);
+});
+
+app.get("/api/developer", (req, res) => {
+  res.send(developer);
 });
 
 
