@@ -100,7 +100,16 @@ app.post('/api/genre/actions', (req, res) => {
     });
 
 
-   
+    // put request
+
+    app.put('/api/genre/actions/:id', (req, res) => {
+      const action = actions.find(c => c.id === parseInt(req.params.id));
+      if (!action) return res.status(404).send('The movie with the given ID was not found')
+ 
+          action.director = req.body.director;
+          res.send(action)
+  });
+  
 
 //delete request
 
