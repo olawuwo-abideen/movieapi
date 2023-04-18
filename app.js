@@ -17,6 +17,8 @@ app.get("/", (req, res) => {
   res.sendFile("index.html", { root: __dirname });
 });
 
+
+
 // get request
 
 app.get("/api/genre/comedies", (req, res) => {
@@ -56,6 +58,17 @@ app.get("/api/developer", (req, res) => {
   res.send(developer);
 });
 
+app.get('/api/genre/disasters/:id', (req, res) => {
+  const findDisaster = disasters.find(c => c.id === parseInt(req.params.id));
+  if (!findDisaster) return res.status(404).send('The movie with the given ID was not found')
+  res.send(findDisaster);
+});
+
+app.get('/api/genre/actions/:id', (req, res) => {
+  const findAction = action.find(c => c.id === parseInt(req.params.id));
+  if (!findAction) return res.status(404).send('The movie with the given ID was not found')
+  res.send(findAction);
+});
 
 
 // post request
@@ -87,6 +100,7 @@ app.post('/api/genre/actions', (req, res) => {
     });
 
 
+    // put request
 
 
 
@@ -99,93 +113,18 @@ app.post('/api/genre/actions', (req, res) => {
 
 
 
+//delete request
 
+app.delete('/api/genre/actions:id', (req, res) => {
+  const action = actions.find(c => c.id === parseInt(req.params.id));
+  if (!action) res.status(404).send('The movie with the given ID was not found')
 
+  const index = actions.indexOf(action);
+  actions.splice(index, 6);
 
+  res.send(action); 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+});
 
 
 
