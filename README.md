@@ -3,7 +3,7 @@ A movie genre database api with express
 
 ## Installation
 
-The code for the api can be found at the public [GitHub](https://github.com/olawuwo-abideen/moviapi). Either clone the repo to a local folder on your machine or
+The code for the api can be found at the public [GitHub](https://github.com/olawuwo-abideen/movieapi). Either clone the repo to a local folder on your machine or
 download and extract the archive if you don't have [Git] installed.
 
 Open a terminal window session, or the equivalent on your machine, and enter the following command to install all the Node modules needed to run the app:
