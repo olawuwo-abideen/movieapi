@@ -1,22 +1,68 @@
 # movieapi
-A movie genre database api with express
+
+A Movie genre database api with express
+
+
+## Built With:
+
+- JavaScript
+- Node
+- Express
+- Mongoose
+
 
 ## Installation
 
-The code for the api can be found at the public [GitHub](https://github.com/olawuwo-abideen/movieapi). Either clone the repo to a local folder on your machine or
-download and extract the archive if you don't have [Git] installed.
+- clone the repository
 
-Open a terminal window session, or the equivalent on your machine, and enter the following command to install all the Node modules needed to run the app:
+```sh
+git clone git@github.com:olawuwo-abideen/movieapi.git
+```
+
+- navigate to the folder
+
+```sh
+cd admin.git
+```
+
+## Run the app in development mode
+
+Open a terminal window session, or the equivalent on your machine, and enter the following command to install all the
+Node modules needed to run the app:
 
 ```sh
 npm install
-```	
-## Run the app in development mode
+```
 
-After doing an `npm install` enter the following `node app.js` command:
+After doing an `npm install` enter the following `npm start` command:
 
 ```sh
-node app.js
+
+npm start
+
 ```
-This will start the app and set it up to listen for incoming connections on port 3000. Open up your browser of choice and go to the url [http://localhost:3000/
-(http://localhost:3000/) to start using the app itself. 
+
+This will start the app and set it up to listen for incoming connections on port 3000. Open up your browser of choice
+and go to the url
+
+```sh
+
+http://localhost:3000
+
+```
+
+to start using the app.
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/Olawuwo-Abideen/movieapi/issues).
+
+## Authors
+
+👤 **Olawuwo Abideen**
+
+- GitHub: [@Olawuwo Abideen](https://github.com/olawuwo-abideen)
+- Twitter: [@Olawuwo Abideen](https://twitter.com/olawuwo_abideen)
+- LinkedIn: [@Olawuwo Abideen](https://www.linkedin.com/in/olawuwo-abideen/)
