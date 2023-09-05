@@ -22,7 +22,7 @@ git clone git@github.com:olawuwo-abideen/movieapi.git
 - navigate to the folder
 
 ```sh
-cd admin.git
+cd movieapi.git
 ```
 
 ## Run the app in development mode
